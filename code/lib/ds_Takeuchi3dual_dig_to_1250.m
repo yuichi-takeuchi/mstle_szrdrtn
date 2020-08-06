@@ -25,7 +25,7 @@ datFileNameBase = [metaInfo.datFileNameBase num2str(metaInfo.expNo) '_' num2str(
 if(exist([datFileNameBase '.dat'],'file'))
 disp(['processing ' datFileNameBase '.dat'])
 [ flag ] = lfpprepf_Takeuchi3_dual_with2A1D(datFileNameBase, metaInfo.sr, metaInfo.srLFP, metaInfo.nChannels);
-fprintf('flag = %d', flag)
+fprintf('flag = %d\n', flag)
 end
 disp('processing done'); toc
 
