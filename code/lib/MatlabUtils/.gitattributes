@@ -1,3 +1,7 @@
+* text=auto
+*.txt text
+*.md text
+
 #avoid crlf, diff, merge of matlab binary files
 *.mlx -crlf -diff -merge
 *.mat -crlf -diff -merge
