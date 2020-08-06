@@ -7,7 +7,14 @@ LFP preparation folder for data analysis with Python and MATLAB for Takeuchi 5 (
 - [MATLAB](https://www.mathworks.com/products/matlab.html)
 - [MatlabUtils](https://github.com/yuichi-takeuchi/MatlabUtils)
 
-The codes have been tested with MATLAB ver 9.5 (R2018b).
+The codes have been tested with MATLAB ver 9.5 (R2018b) with the following toolboxes:
+- Curve Fitting Toolbox
+- Data Acquisition Toolbox
+- Image Acquisition Toolbox
+- Image Processing Toolbox
+- Signal Processing Toolbox
+- Statistics and Machine Learning Toolbox
+- Wavelet Toolbox
 
 ### Installing
 1. Install MATLAB
@@ -16,7 +23,7 @@ The codes have been tested with MATLAB ver 9.5 (R2018b).
 ### How to use
 1. dat file should be located in the \data folder
 2. Launch \code\main.mlx
-3. Results will be blahblah_LFP1k.dat, blahblah_dig1k.dat, and blahblah_ryncy_1k_tsp.mat files in the \results folder.
+3. Results will be blahblah.csv, blahblah.pdf, and blahblah.png files in the \results folder.
 
 ## Versioning
 We use [SemVer](http://semver.org/) for versioning.
