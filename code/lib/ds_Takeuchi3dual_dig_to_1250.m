@@ -4,7 +4,7 @@ function ds_Takeuchi3dual_dig_to_1250(ID,date)
 %% meta infomation
 metaInfo = struct(...
     'expNo', 1,...
-    'sessionNo', 1,...
+    'sessionNo', 2,...
     'datFileNameBase', [ID '_' num2str(date) '_exp' ],...
     'nChannels', 63,...
     'sr', 20000,...
@@ -30,11 +30,11 @@ end
 disp('processing done'); toc
 
 % move files to results folder
-movefile([datFileNameBase '_LFP_reorg_1.dat'], ['tmp/' datFileNameBase '_LFP1250_1.dat']);
-movefile([datFileNameBase '_LFP_reorg_2.dat'], ['tmp/' datFileNameBase '_LFP1250_2.dat']);
-movefile([datFileNameBase '_adc_1.dat'], ['tmp/' datFileNameBase '_adc_1.dat']);
-movefile([datFileNameBase '_adc_2.dat'], ['tmp/' datFileNameBase '_adc_2.dat']);
-movefile([datFileNameBase '_dig.dat'], ['tmp/' datFileNameBase '_dig.dat']);
+movefile([datFileNameBase '_LFP_reorg_1.dat'], ['../code/tmp/' datFileNameBase '_LFP1250_1.dat']);
+movefile([datFileNameBase '_LFP_reorg_2.dat'], ['../code/tmp/' datFileNameBase '_LFP1250_2.dat']);
+movefile([datFileNameBase '_adc_1.dat'], ['../code/tmp/' datFileNameBase '_adc_1.dat']);
+movefile([datFileNameBase '_adc_2.dat'], ['../code/tmp/' datFileNameBase '_adc_2.dat']);
+movefile([datFileNameBase '_dig.dat'], ['../code/tmp/' datFileNameBase '_dig.dat']);
 
 % come back to current folder
 cd(currentFolder)
