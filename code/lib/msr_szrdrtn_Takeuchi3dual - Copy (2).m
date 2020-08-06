@@ -1,7 +1,8 @@
+function msr_szrdrtn_Takeuchi3dual()
 % This routine analyses HPC and Ctx seizure durations and provides an comma
 % separated value file as output
-% Copyright (C) 2018-2020 Yuichi Takeuchi
-clc; clear; close all
+% Copyright (C) 2018–2020 Yuichi Takeuchi
+
 %% Organizing a recording information structure
 date = 190814;
 datfilenamebase = ['AP_' num2str(date) '_exp'];
