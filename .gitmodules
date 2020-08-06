@@ -1,6 +1,0 @@
-[submodule "code/lib/python_utils"]
-	path = code/lib/python_utils
-	url = https://github.com/yuichi-takeuchi/python_utils.git
-[submodule "code/lib/MatlabUtils"]
-	path = code/lib/MatlabUtils
-	url = https://github.com/yuichi-takeuchi/MatlabUtils.git
