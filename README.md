@@ -1,5 +1,5 @@
 # mstle_msr_szrdrtn
-LFP preparation folder for data analysis with Python and MATLAB for Takeuchi 5 (32 ch tungsten wires + digital channel)
+Measures duration of evoked hippocampal and cortical seizures in LFP recordings
 
 ## Getting Started
 
