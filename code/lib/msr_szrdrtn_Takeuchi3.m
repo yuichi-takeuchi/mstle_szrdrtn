@@ -13,4 +13,7 @@ cParams.TestDrtn = uint64(floor(180*cParams.sr)); % 180 s test period after stim
 %% Seizure detection: Band-pass filt-Rectification-movmean filtfilt signal pre-processing, RMS thresholding
 [ flag ] = eplpsyf_detectEvokedSeizureBPFltMvmnRMSThrshld2( RecInfo, DataStruct, cParams, true, true);
 
+%% Rutput of filtered and raw traces
+[ flag ] = figsf_checkTimedTracesOfGroups2( RecInfo, DataStruct, cParams);
+
 end
