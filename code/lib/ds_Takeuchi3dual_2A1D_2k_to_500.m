@@ -27,8 +27,8 @@ end
 disp('processing done'); toc
 
 % move files to results folder
-movefile([datFileNameBase '_LFP_reorg_1.dat'], ['../code/tmp/' datFileNameBase '_LFP1250_1.dat']);
-movefile([datFileNameBase '_LFP_reorg_2.dat'], ['../code/tmp/' datFileNameBase '_LFP1250_2.dat']);
+movefile([datFileNameBase '_LFP_reorg_1.dat'], ['../code/tmp/' datFileNameBase '_LFP500_1.dat']);
+movefile([datFileNameBase '_LFP_reorg_2.dat'], ['../code/tmp/' datFileNameBase '_LFP500_2.dat']);
 movefile([datFileNameBase '_adc_1.dat'], ['../code/tmp/' datFileNameBase '_adc_1.dat']);
 movefile([datFileNameBase '_adc_2.dat'], ['../code/tmp/' datFileNameBase '_adc_2.dat']);
 movefile([datFileNameBase '_dig.dat'], ['../code/tmp/' datFileNameBase '_dig.dat']);
