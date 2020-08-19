@@ -14,6 +14,10 @@
 *.ai
 *.eps
 
+# ignore neurscope files
+*.nrs
+*.xml
+
 # ignore data binary files
 *.dat
 *.mp4
