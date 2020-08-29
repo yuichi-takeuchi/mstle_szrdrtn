@@ -1,4 +1,4 @@
-# mstle_msr_szrdrtn
+# mstle_szrdrtn
 Measures duration of evoked hippocampal and cortical seizures in LFP recordings
 
 ## Getting Started
