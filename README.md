@@ -30,7 +30,6 @@ We use [SemVer](http://semver.org/) for versioning.
 
 ## Authors
 - **Yuichi Takeuchi PhD** - *Initial work* - [GitHub](https://github.com/yuichi-takeuchi)
-- Affiliation: Department of Physiology, University of Szeged, Hungary
 
 ## License
 This project is licensed under the MIT License.
